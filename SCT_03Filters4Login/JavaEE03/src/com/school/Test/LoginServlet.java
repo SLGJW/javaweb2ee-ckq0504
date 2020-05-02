@@ -19,7 +19,7 @@ public class LoginServlet extends HttpServlet {
             session.setAttribute("user",username);
             response.sendRedirect(request.getContextPath()+"/success.jsp");
         }else{
-            request.setAttribute("loginlose", "ÓÃ»§Ãû»òÃÜÂë´íÎó");
+            request.setAttribute("loginlose", "ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
             request.getRequestDispatcher("/index.jsp").forward(request, response);
         }
 
